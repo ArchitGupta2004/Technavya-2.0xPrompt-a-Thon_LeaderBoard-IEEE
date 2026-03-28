@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment variables (Sensitive Data)
+.env
+.env.local
+.env.*.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# Local Database (Keep data local, do not commit to GitHub)
+*.json.backup
+database.json
+database.backup.json
+backend/database.json
+backend/database.backup.json
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+
+# OS specific
+Thumbs.db
+Desktop.ini

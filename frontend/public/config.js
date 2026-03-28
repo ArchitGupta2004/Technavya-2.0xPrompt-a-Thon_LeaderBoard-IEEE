@@ -1,0 +1,1 @@
+window.BACKEND_CONFIG = { API_URL: "http://localhost:60865" };
