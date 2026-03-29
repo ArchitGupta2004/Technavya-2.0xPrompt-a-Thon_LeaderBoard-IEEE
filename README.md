@@ -134,4 +134,5 @@ Developed for **Technavya 2.0 × Prompt‑A‑Thon**
 
 ---
 
-> Built with ❤️ for competitive innovation and real‑time collaboration by IEEE @ GLA University.
+> Built with ❤️ for competitive innovation and real‑time collaboration by IEEE @ GLA University
+> 
