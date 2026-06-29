@@ -194,10 +194,16 @@ app.delete('/leaderboard/:id', async (req, res) => {
 
 // ================= SERVER START =================
 
-// 🔥 IMPORTANT FOR RENDER
+// ================= SERVER START =================
+
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
-  console.log(`\n✓ Server started on PORT: ${PORT}`);
-  console.log(`✓ Database: Local JSON\n`);
-});
+// Local testing ke liye ye condition rakhein
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`✓ Server started on PORT: ${PORT}`);
+  });
+}
+
+// Vercel ko app export karke dena zaroori hai
+export default app;
