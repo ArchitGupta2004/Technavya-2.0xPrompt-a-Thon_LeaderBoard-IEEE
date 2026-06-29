@@ -32,6 +32,6 @@ start "Frontend" cmd /k "cd /d "%ROOT_DIR%frontend" && npm run dev"
 
 echo.
 echo All services started! 
-echo Open: http://localhost:5174
+echo Open: http://localhost:5173
 echo.
 pause
